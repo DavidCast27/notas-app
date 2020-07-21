@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DummyData } from './dummy-tasks';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'notas-app';
+  tasks: any = DummyData;
+
+  edit(id:string){
+
+  }
+  
+  delete(id:string){
+
+  }
+
 }
